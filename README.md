@@ -1,0 +1,1 @@
+Package for a coinbase streaming data platform deployment as IaC with terraform, creating a kubernetes cluster and using that to deploy a kafka server which is feed by a web socket script to consume from coinbase, write to kafka, transform with apache flink, write back to kafka, then load to local.
